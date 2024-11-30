@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359736541294",
+    "project_id": "appmagicTeenpatti-bb9ca",
+    "storage_bucket": "appmagicTeenpatti-bb9ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359736541294:android:aafc580ae8cd625d1b267f",
+        "android_client_info": {
+          "package_name": "com.casinocards.appmagicTeenpatti"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2ZAdhGxceaBM4AUr8H2IgAsSCJLgGMEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

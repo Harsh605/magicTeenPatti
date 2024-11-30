@@ -1,0 +1,5 @@
+password - 123456
+alias - spin786
+Organize - 123456	
+package = com.casinocards.appmagicTeenpatti
+  

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="30dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:background="@drawable/bg_gredient"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/tv_heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OrderID"
+                    android:textSize="18sp"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    android:textColor="@color/white"
+                    app:fontFilePath="@string/Helvetica_Bold_Extra"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgclose"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_close_new"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edit_OrderID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter OrderID"
+                android:textColorHint="@color/hint_color"
+                android:layout_marginStart="@dimen/dp15"
+                android:layout_marginEnd="@dimen/dp15"
+                android:gravity="top"
+                android:padding="10dp"
+                android:background="@drawable/bg_edit_box"
+                android:inputType="number"
+                android:singleLine="false"
+                android:elevation="5dp"
+                android:textColor="@color/white"
+                android:imeOptions="flagNoExtractUi"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imglogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dp20"
+                android:layout_marginBottom="@dimen/dp20"
+                app:cardBackgroundColor="@color/new_yellow"
+                app:cardCornerRadius="5dp"
+                android:layout_marginRight="10dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Submit"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:fontFilePath="@string/Helvetica_Bold_Extra" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
